@@ -1,0 +1,163 @@
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 22vw;
+    height: 33vw;
+}
+
+.carddiv {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.1);
+    transition: margin-top 0.3s ease;
+}
+
+.carddiv:hover {
+    margin-top: -5px;
+    box-shadow: 0px 15px 15px rgba(23, 175, 86, 0.4);
+    .cardtradePortalcta{
+        box-shadow: 0px 5px 5px rgba(23, 175, 86, 0.4);
+        border: 1px solid #cbfae3;
+    }
+    img.card-img {
+        height: 17vw;
+    }
+}
+
+div.cardCategory {
+    width: 100%;
+    height: 3.3vw;
+    background-color: white;
+}
+
+div.cardCategory > span {
+    font-size: 1.5vw;
+    width: 40%;
+    height: 100%;
+    border-radius: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffbc40;
+}
+
+div.cardContents {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    border-radius: 0px 0px 15px 15px;
+    background-color: white;
+}
+
+div.cardContents > div.cardimgdiv {
+    height: 16.5vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    background-color: white;
+}
+
+img.card-img {
+    aspect-ratio: 5/6;
+    object-fit: contain;
+    height: 14vw;
+    transition: height 0.4s ease;
+}
+
+div.cardinfograph {
+    height: 80%;
+    background-color: white;
+    padding: 0.22vw 1.1vw;
+}
+
+div.infographcategory > p {
+    width: 100%;
+    color: #929292;
+}
+
+div.card-desc > p {
+    width: 100%;
+    font-size: 1.4vw;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.5vw 0px;
+    font-weight: 600;
+}
+
+div.card-rate {
+    display: inline-flex;
+}
+
+div.card-rate>span.card-stars>img.cardRateStar {
+    width: 1vw;
+    padding-right: 0.2vw;
+}
+
+div.card-rate > p {
+    padding-left: 1vw;
+    color: #929292;
+}
+
+div.cardBrand {
+    padding: 2% 0px;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+
+div.cardtradePortal {
+    display: flex;
+    justify-content: space-between;
+    height: 2.8vw;
+}
+
+div.cardtradePortal > div.card-price > b {
+    color: #00ba66;
+    font-size: 1.5vw;
+}
+
+div.cardtradePortal > div.card-price > s {
+    color: #929292;
+}
+
+.cardtradePortalcta {
+    background-color: #def9ec;
+    outline: none;
+    border: none;
+    width: 30%;
+    height: 80%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.cardtradePortalcta > img {
+    width: 1.5vw;
+}
+
+.cardtradePortalcta > b {
+    color: #00ba66;
+    padding-left: 0.3vw;
+}

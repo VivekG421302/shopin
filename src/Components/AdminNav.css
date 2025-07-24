@@ -1,0 +1,67 @@
+div.adminNavBody {
+    width: 80%;
+    position: fixed;
+    top: 0px;
+    left: 20%;
+    height: 15vh;
+    border-bottom: 1px solid #f3ecec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.adminNavBody > .adminNavInputArea{
+    border: 1px solid #d3c9c9;
+    border-radius: 5px;
+    display: flex;
+    width: 40%;
+    height: 50%;
+    align-items: center;
+    margin-left: 4%;
+}
+
+div.adminSearchBarDiv{
+    width: 80%;
+    height: 100%;
+}
+
+input.adminsearch {
+    padding: 0px 2vw;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+div.adminsearchbtn {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+div.adminsearchbtn > img {
+    width: 30px;
+    /* background-color: white; */
+}
+
+div.adminnavs {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+img.adminbell {
+    width: 30px;
+}
+
+img.adminmode {
+    width: 35px;
+}
+
+img.adminprofile {
+    width: 40px;
+}
+
