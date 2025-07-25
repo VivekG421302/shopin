@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom';
-import "./Product.css"
+import "../style/Product.css"
 import Navbar from '../Components/Navbar';
 
-// function Product() {
+function Product() {
 
     let location = useLocation()
     let Asset = location.state

@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div.adminBody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+div.adminBodydiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+}
+
+aside.adminSidebar {
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background-color: #3c8d68;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoLinkadmin > div.imglogodiv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.logoLinkadmin > div.imglogodiv > img{
+    width: 70%;
+}
+
+div.dashop {
+    width: 100%;
+    padding: 25px;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #469e76;
+    color: white;
+    box-sizing: border-box;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 10px 15px rgba(255, 255, 255, 0.05);
+}
+
+.option1 > img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.option2 > img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.option3 > img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.option4 > img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.option5 > img {
+    width: 25px;
+    margin-right: 10px;
+    opacity: 70%;
+}
+
+.option6 > img {
+    width: 25px;
+    margin-right: 10px;
+    opacity: 70%;
+}
+
+.option7 > img {
+    width: 25px;
+    margin-right: 10px;
+    opacity: 70%;
+}
+
+/* ADD PRODUCT AREA STARTS HERE */
+
+/* #mainadminarea {
+    width: 80%;
+} */
+
+#mainadminarea {
+    width: 80%;
+    position: absolute;
+    top: 15vh;
+    left: 20%;
+    z-index: -22;
+}
+
+main.addProductMain {
+    background-color: #333;
+    height: auto;
+    height: auto;
+    display: flex;
+    align-items: stretch;
+    /* border: 1px dotted red; */
+}
+
+main.addProductMain > form {
+    height: 100%;
+    width: 100%;
+}
+
+table.addProductsMainTable {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px auto;
+    margin: auto;
+    font-size: 16px;
+}
+
+thead {
+    column-span: 2;
+    padding-left: 20px;
+}
+
+.formtitleonaddproducts{
+    padding-left: 5.5%;
+}
+
+table td {
+    padding: 12px 15px;
+}
+
+table label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 20%;
+}
+
+table input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table td:first-child {
+    width: 30%;
+    font-size: larger;
+}
+
+table td:last-child {
+    width: 70%;
+}
+
+table select, table textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: inherit;
+    font-size: 16px;
+    color: #757575;
+}
+
+table textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+table.addProductsMainTable > thead > tr > th {
+    padding: 15px;
+    text-align: left;
+}
+
+tfoot > tr.addtablefoot {
+    background-color: #ccc;
+}
+
+tr.addtablefoot > td.addproduct > button {
+    padding: 20px 30px;
+    border-radius: 4px;
+    border: none;
+    font-size: medium;
+    outline: blue;
+}
+
+tr.addtablefoot > td.addproduct > button.clearSubmit {
+    background-color: #e49b0a;
+    color: white;
+}
+
+tr.addtablefoot > td.addproduct > button.addSubmit {
+    background-color: #469e76;
+    color: white;
+}
+
+/* PRODUCT REVIEW SECTION  */
+
+.productReviewBody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+div.adminChartBody {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    /* margin: 1.2vw; */
+}
+
+div.adminChartImg {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.adminChartImg > img {
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    height: 90px;
+}
+
+div.adminChartDesc {
+    width: 30%;
+    margin: 10px;
+}
+
+div.adminChartDesc > h4 {
+    line-clamp: 2;
+    font-size: 1.2rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    padding-bottom: 5px;
+    text-overflow: ellipsis;
+}
+
+div.adminChartDesc > p{
+    display: flex;
+}
+
+div.adminChartDesc > p > p{
+    color: #666;
+    margin: 0px 5px;
+}
+
+img.starRatings {
+    width: 15px;
+    margin: 5px;
+}
+
+div.adminChartQty {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    /* border: 1px solid yellow; */
+}
+
+div.adminChartStock, .adminChartSales {
+    /* display: flex; */
+    width: 50%;
+    height: 100%;
+    /* border: 1px dotted red; */
+}
+
+div.adminChartStock > p, .adminChartSales > p {
+    height: 30%;
+    /* border: 1px solid burlywood; */
+}
+
+div.adminChartStock > h4, .adminChartSales > h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    width: 100%;
+    height: 60%;
+    overflow-y: hidden;
+}
+
+div.adminChartsButton {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid greenyellow; */
+}
+
+div.ChartsButton:hover {
+    border: 1px solid #aaa;
+}
+
+div.ChartsButton > button{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+div.ChartsButton > button > img{
+    width: 20px;
+}
+
+/* Light Theme */
+.admincontents.light,
+.admincontents.light * {
+    background-color: #fff;
+    color: #000;
+  }
+
+  /* Dark Theme */
+.admincontents.dark,
+.admincontents.dark * {
+    background-color: #333;
+    color: #fff;
+  }
+

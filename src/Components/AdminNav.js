@@ -1,5 +1,5 @@
 import React from 'react'
-import "./AdminNav.css"
+import "../style/AdminNav.css"
 
 function AdminNav({ theme, toggleTheme }) {
     return (

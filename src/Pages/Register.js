@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Register.css';
+import '../style/Register.css';
 import * as Yup from 'yup';
 import { Link, useNavigate } from 'react-router-dom';
 

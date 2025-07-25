@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+    /* OUTER BODY */
+div.CartlistBody {
+    width: 80%;
+    height: 120px;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: start;
+    border-right: 1px solid #ddd;
+}
+
+/* INNER BODY */
+div.CartListBodydiv:hover {
+    border: 2px solid #ccc;
+}
+
+div.CartListBodydiv {
+    width: 90%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    transition: border 0.1s ease;
+    box-shadow: 0px 5px 5px rgba(23, 175, 86, 0.2);
+}
+
+/* IMAGE SECTION */
+div.cartProductImgdiv {
+    width: 10%;
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+img.cartProductImg {
+    height: 90px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+/* INFO SECTION */
+div.Cartlistinfo {
+    width: 35%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.Cartlistinfo > h3 {
+    overflow: hidden;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    line-clamp: 2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+
+div.Cartlistinfo > p {
+    display: flex;
+    color: #666;
+}
+
+/* PRICE SECTION */
+.Cartlistprice {
+    width: 12%;
+    border-left: 1px solid #ddd;
+}
+
+.Cartlistprice,
+.BillingAmount {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Cartlistprice p {
+    color: #aaa;
+    font-weight: 600;
+}
+
+.Cartlistprice > h2 {
+    color: #666;
+}
+
+/* COUNTER SECTION */
+.CartProductQty {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CartProductQty > button {
+    height: 40%;
+    border: none;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    aspect-ratio: 1/1;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.CartProductQty > button.decreasecart {
+    background-color: rgb(248, 166, 157);
+}
+
+.CartProductQty > button.increasecart {
+    background-color: #89dab4;
+}
+
+/* BILLING SECTION */
+.BillingAmount {
+    width: 18%;
+    border-right: 1px solid #ddd;
+    color: #0ca761;
+}
+
+/* ADD TO WISHLIST SECTION */
+div.CartofWish {
+    width: 10%;
+    height: 100%;
+}
+
+button.wishCartButton {
+    width: 100%;
+    border: none;
+    height: 100%;
+    display: flex;
+    cursor:pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+button.wishCartButton > img {
+    width: 50%;
+}
+
+
+/* REMOVE CART SECITON */
+div.removeCart {
+    width: 10%;
+    height: 100%;
+}
+
+button.removeCartButton {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+button.removeCartButton > img {
+    width: 30px;
+    opacity: 70%;
+}

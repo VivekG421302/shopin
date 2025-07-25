@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./Cartlist.css";
+import "../style/Cartlist.css";
 import StarRating from './StarRating';
 
 function Cartlist(props) {

@@ -1,0 +1,7 @@
+div.adminChartBody {
+    transition: border 1s ease;
+}
+
+div.adminChartBody:hover {
+    border: 1px solid #bbb;
+}

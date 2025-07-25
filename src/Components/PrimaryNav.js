@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./PrimaryNav.css";
+import "../style/PrimaryNav.css";
 
 // what ever value we are getting from the category selector and the search bar is been
 function PrimaryNav({ theme, toggleTheme, onSearchChange, onCategoryChange }) {

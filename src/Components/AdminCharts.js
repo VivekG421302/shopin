@@ -1,6 +1,6 @@
 import React from 'react'
-import './AdminCharts.css'
-import StarRating from './StarRating'
+import '../style/AdminCharts.css'
+import StarRating from '../style/StarRating'
 
 function AdminCharts(props) {
     return (

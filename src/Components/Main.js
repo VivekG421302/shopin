@@ -2,7 +2,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Card from './Card';
-import "./Main.css";
+import "../style/Main.css";
 
 function Main({ proData }) {
   const navigate = useNavigate();

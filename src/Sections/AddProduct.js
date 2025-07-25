@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import "../Pages/Admin.css"
+import "../style/Admin.css"
 
 function AddProduct() {
     const inputRef = useRef(null);
