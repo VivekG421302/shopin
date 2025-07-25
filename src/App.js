@@ -2,7 +2,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../style/App.css';
+import './App.css';
 import Home from './Pages/Home';
 import Product from './Pages/Product';
 import Admin from './Pages/Admin';
