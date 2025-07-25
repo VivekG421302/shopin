@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import AdminCharts from '../Components/AdminCharts'
-import "../style/Admin.css"
+import "../Pages/Admin.css"
 import StarRating from '../Components/StarRating';
 
 function ProductReview() {
