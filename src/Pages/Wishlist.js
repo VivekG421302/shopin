@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style/Wishlist.css'
+import './Wishlist.css'
 import Navbar from '../Components/Navbar'
 import Cartlist from '../Components/Cartlist'
 

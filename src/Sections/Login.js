@@ -21,7 +21,7 @@ function Login() {
 
         try {
             // Fetch all users from JSON server
-            const response = await fetch('http://localhost:5006/users');
+            const response = await fetch('https://shopinjsondb-production.up.railway.app/users');
             const users = await response.json();
 
             // Check if user exists with the provided email/phone

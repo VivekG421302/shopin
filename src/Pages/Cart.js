@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
 import Cartlist from '../Components/Cartlist';
-import '../style/Cart.css';
+import './Cart.css';
 
 function Cart(props) {
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import "../style/Product.css";
+import "./Product.css";
 import StarRating from '../Components/StarRating';
 import PrimaryNav from '../Components/PrimaryNav';
 import Main from '../Components/Main';

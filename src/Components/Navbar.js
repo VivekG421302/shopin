@@ -1,6 +1,6 @@
 // src/Components/Navbar.js
 import React from 'react';
-import "../style/Navbar.css";
+import "./Navbar.css";
 import { Link } from 'react-router-dom';
 import PrimaryNav from './PrimaryNav';
 

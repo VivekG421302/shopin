@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import "../style/Admin.css"
+import "../Pages/Admin.css"
 
 function AddProduct() {
     const inputRef = useRef(null);
@@ -83,7 +83,7 @@ function AddProduct() {
         console.log({ productName, brand, category, subCategory, ppv, specification, unit, tags, description, price, compare, discount, thumbnail, imgone, imgtwo, imgthree, rate, stock, sales, imgfour});
         let productData = { productName, brand, category, subCategory, ppv, specification, unit, tags, description, price, compare, discount, thumbnail, imgone, imgtwo, imgthree, rate, stock, sales, imgfour };
 
-        fetch('http://localhost:5006/products', {
+        fetch('https://shopinjsondb-production.up.railway.app/products', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

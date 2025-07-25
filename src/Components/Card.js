@@ -1,5 +1,5 @@
 import React from 'react';
-import "../style/Card.css";
+import "./Card.css";
 import StarRating from './StarRating';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';

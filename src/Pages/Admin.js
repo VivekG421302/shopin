@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import "../style/Admin.css"
+import "./Admin.css"
 import AdminNav from '../Components/AdminNav'
 import { Link, Outlet } from 'react-router-dom'
 

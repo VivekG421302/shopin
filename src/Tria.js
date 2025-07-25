@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom';
-import "../style/Product.css"
+import "./Product.css"
 import Navbar from '../Components/Navbar';
 
 function Product() {
