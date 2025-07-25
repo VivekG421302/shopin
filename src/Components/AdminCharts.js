@@ -33,7 +33,9 @@ function AdminCharts(props) {
                         </button>
                     </div>
                     <div className="adminChartsEditButton ChartsButton">
-                        <button onClick={() => props.onEdit(props)}>
+                        <button 
+                        // onClick={() => props.onEdit(props)}
+                        >
                             <img src="../images/edit.svg" alt="Edit" />
                         </button>
                     </div>
