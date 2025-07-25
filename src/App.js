@@ -34,9 +34,9 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path='/home' element={<Home HomeProducts={getProductData} />} />
+        <Route path='/' element={<Home HomeProducts={getProductData} />} />
         <Route path='/product' element={<Product HomeProducts={getProductData} />} />
-        <Route path='/' element={<Register />} />
+        <Route path='/register' element={<Register />} />
         <Route path='/star' element={<StarRating />} />
         <Route path='/cart' element={<Cart Showlist={getProductData} />} />
         <Route path='/wishlist' element={<Wishlist Showlist={getProductData} />} />
